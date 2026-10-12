@@ -6,17 +6,21 @@
 import Fejlec from "./components/Fejlec";
 import ReactKapcsolo from "./components/ReactKapcsolo";
 import Lablec from "./components/Lablec";
+//colorchanger
+import FejlecColorChanger from "./components/FejlecColorChanger";
+import ColorChanger from "./components/ColorChanger";
+import LablecColorChanger from "./components/LablecColorChanger";
 
 function App() {
   return (
     <div className="alkalmazas">
       <Fejlec />
-
-      <main>
-        <ReactKapcsolo />
-      </main>
-
+      <ReactKapcsolo />
       <Lablec />
+
+      <FejlecColorChanger />
+      <ColorChanger />
+      <LablecColorChanger />
     </div>
   );
 }

@@ -21,14 +21,13 @@ function ReactKapcsolo() {
         leiras={bekapcsolva ? "bekapcsolt" : "kikapcsolt"}
       />
 
-      <p className="allapot" aria-live="polite">
+      <p className="allapot">
         allapot: {bekapcsolva ? "Be" : "Ki"}
       </p>
 
       <button
         type="button"
         onClick={kapcsolas}
-        aria-pressed={bekapcsolva}
       >
         {bekapcsolva ? "kikapcsolas" : "bekapcsolas"}
       </button>
