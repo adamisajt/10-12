@@ -10,6 +10,11 @@ import Lablec from "./components/Lablec";
 import FejlecColorChanger from "./components/FejlecColorChanger";
 import ColorChanger from "./components/ColorChanger";
 import LablecColorChanger from "./components/LablecColorChanger";
+//szovegkezelo
+import FejlecSzoveg from "./components/FejlecSzoveg";
+import SzovegKezeloFuggvenyek from "./components/SzovegKezeloFuggvenyek";
+import LablecSzoveg from "./components/LablecSzoveg";
+//
 
 function App() {
   return (
@@ -21,6 +26,10 @@ function App() {
       <FejlecColorChanger />
       <ColorChanger />
       <LablecColorChanger />
+
+      <FejlecSzoveg />
+      <SzovegKezeloFuggvenyek />
+      <LablecSzoveg />
     </div>
   );
 }
