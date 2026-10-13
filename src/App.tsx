@@ -14,7 +14,14 @@ import LablecColorChanger from "./components/LablecColorChanger";
 import FejlecSzoveg from "./components/FejlecSzoveg";
 import SzovegKezeloFuggvenyek from "./components/SzovegKezeloFuggvenyek";
 import LablecSzoveg from "./components/LablecSzoveg";
-//
+//szamologep
+import FejlecSzamologep from "./components/FejlecSzamologep";
+import Calculator from "./components/Calculator";
+import LablecSzamologep from "./components/LablecSzamologep";
+//complex calculator
+import FejlecComplexCalculator from "./components/FejlecComplexCalculator";
+import ComplexCalculator from "./components/ComplexCalculator";
+import LablecComplexCalculator from "./components/LablecComplexCalculator";
 
 function App() {
   return (
@@ -30,6 +37,14 @@ function App() {
       <FejlecSzoveg />
       <SzovegKezeloFuggvenyek />
       <LablecSzoveg />
+
+      <FejlecSzamologep />
+      <Calculator />
+      <LablecSzamologep />
+
+      <FejlecComplexCalculator />
+      <ComplexCalculator />
+      <LablecComplexCalculator />
     </div>
   );
 }
