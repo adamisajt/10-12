@@ -43,7 +43,7 @@ function App() {
       <LablecSzamologep />
 
       <FejlecComplexCalculator />
-      <ComplexCalculator />
+      <ComplexCalculator /> 
       <LablecComplexCalculator />
     </div>
   );
